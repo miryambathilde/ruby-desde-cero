@@ -1,4 +1,3 @@
-
 name = 'Working with string methods'
 
 # string length
@@ -17,7 +16,7 @@ puts name.downcase # working with string methods
 puts name.capitalize # Working with string methods
 
 # string swapcase (is the opposite of capitalize)
-puts name.swapcase  # wORKING WITH STRING METHODS
+puts name.swapcase # wORKING WITH STRING METHODS
 
 # string include?
 puts name.include?('with') # true
@@ -30,4 +29,9 @@ puts name.end_with?('methods') # true
 
 # string nil?
 puts name.nil? # false
+
+# slice.(start, end lenght)
+puts name.slice(0, 7) # Working
+
+puts name.slice(8, 4) # with
 
