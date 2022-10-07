@@ -27,3 +27,7 @@ puts ferrari.class.to_s # => Car
 
 puts ferrari.instance_of?(Car) # => true
 puts name.instance_of?(Car) # => false
+
+# object id
+puts ferrari.object_id # => 43333420
+puts name.object_id # => 43219420
