@@ -17,6 +17,6 @@ IRPF = 0.16
 
 puts salary * IRPF
 
-netSalary = salary - (salary * IRPF)
+net_salary = salary - (salary * IRPF)
 
-puts netSalary # => 840.0
+puts net_salary # => 840.0
